@@ -14,7 +14,7 @@
 
 <div class="container">
   <h2>Get page title</h2>
-  <form role="form" action="/spring-mvc-rest/page/details" method="post">
+  <form role="form" action="/spring-mvc-rest-hibernate/page/details" method="post">
     <div class="form-group">
       <label for="url">URL:</label>
       <input type="text" class="form-control" id="url" name="url" placeholder="Enter url">
@@ -25,7 +25,7 @@
 
 <div class="container">
   <h2>Get page details using REST</h2>
-  <form role="form" action="/spring-mvc-rest/getpage" method="post">
+  <form role="form" action="/spring-mvc-rest-hibernate/getpage" method="post">
     <div class="form-group">
       <label for="url">URL:</label>
       <input type="text" class="form-control" id="url" name="url" placeholder="Enter url">
@@ -36,7 +36,7 @@
 
 <div class="container">
   <h2>List Employees</h2>
-  <form role="form" action="/spring-mvc-rest/employees/list" method="get">
+  <form role="form" action="/spring-mvc-rest-hibernate/employees/list" method="get">
     <div class="form-group">
       <label for="url">SSN:</label>
       <input type="text" class="form-control" id="ssn" name="ssn" placeholder="Employee SSN">
